@@ -3,6 +3,7 @@ kind: StorageClass
 metadata:
   # We can use any name so long as we reference it correctly
   name: standard
+  namespace: default
 
   # Tell k8s this is our default storageClass
   annotations:
